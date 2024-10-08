@@ -1,0 +1,25 @@
+{
+  "name": "node-postgres-express-react-sequelize-todo",
+  "version": "1.0.0",
+  "description": "Building simple todo application with React, Node, Express, and Postgres and using Sequelize as an ORM",
+  "main": "index.js",
+  "scripts": {
+    "start:dev": "nodemon server.js",
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "morgan": "^1.9.1",
+    "pg": "^7.8.0",
+    "pg-hstore": "^2.3.2",
+    "sequelize": "^4.42.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.9"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "development": {
+    "username": "root",
+    "password": null,
+    "database": "todos-dev",
+    "host": "127.0.0.1",
+    "port": 5432,
+    "dialect": "postgres"
+  },
+  "production": {
+    "username": "cubdrresbdsbcd",
+    "password": "35862b3a6662e9eb1ad48fe76494da5b671ca26271c580ce19b820011ad595d5",
+    "database": "d65vv4oid9jolr",
+    "host": "ec2-107-22-162-8.compute-1.amazonaws.com",
+    "port": 5432,
+    "dialect": "postgres"
+  }
+}
